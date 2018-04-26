@@ -11,7 +11,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             when('/',{templateUrl: 'templates/home.html', controller: 'mainController' }).
             when('/home',{templateUrl: 'templates/home.html', controller: 'mainController' }).
             when('/contracts',{templateUrl: 'templates/contracts.html', controller: 'mainController' }).
-            when('/lid',{templateUrl: 'templates/lid.html', controller: 'mainController' }).
+            when('/did',{templateUrl: 'templates/did.html', controller: 'mainController' }).
             when('/sensors',{templateUrl: 'templates/sensors.html', controller: 'mainController' }).
             when('/content',{templateUrl: 'templates/content.html', controller: 'mainController' }).
             when('/prana',{templateUrl: 'templates/prana.html', controller: 'mainController' }).
