@@ -20,9 +20,9 @@
 											<br class="mobile-hide" />
 										</header>
 										<p>
-											An overlay network, it uses I2P for a base level of anonymity. The module participates with the LID module for
-											self-sovereign identity and reputation based access. The system survives even if the internet goes down or is cut off by supporting
-											peer-to-peer mesh networks. As long as enough people still have their device, the network survives.
+											An overlay network, it uses I2P for a base level of anonymity P2P and Tor when accessing clearnet web services. The module participates with the <a href="/did">DID</a> module for
+											<a href="/ssauthn">self-sovereign identity</a> and <a href="/repbac">reputation based access</a>. The system survives even if the internet goes down or is cut off by supporting
+											peer-to-peer direct wireless mesh networks. As long as enough people still have their device, the network survives.
 										</p>
 									</article>
 									<div>
@@ -50,7 +50,7 @@
 											<div class="4u">
 												<section class="is is-triple-three">
 													<header>
-														<h2>Cellular</h2>
+														<h2>Clearnet</h2>
 													</header>
 													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Delegative_democracy" class="image image-full"><img src="../images/delegative.jpeg" alt="" /></a>-->
 													<p>&nbsp;</p>
@@ -72,7 +72,7 @@
 											<div class="4u">
 												<section class="is is-triple-two">
 													<header>
-														<h2>Nearby</h2>
+														<h2>Mesh</h2>
 													</header>
 													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Decentralization" class="image image-full"><img src="../images/decentralization.gif" alt="" /></a>-->
 													<p>&nbsp;</p>
@@ -82,6 +82,18 @@
 											<div class="4u">
 												<section class="is is-triple-three">
 													<header>
+														<h2>Nearby</h2>
+													</header>
+													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Decentralization" class="image image-full"><img src="../images/decentralization.gif" alt="" /></a>-->
+													<p>&nbsp;</p>
+													<!--<a href="decentralized" class="button button-style1">More</a>-->
+												</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="4u">
+												<section class="is is-triple-one">
+													<header>
 														<h2>NFC</h2>
 													</header>
 													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Delegative_democracy" class="image image-full"><img src="../images/delegative.jpeg" alt="" /></a>-->
@@ -89,10 +101,8 @@
 													<!--<a href="delegative" class="button button-style1">More</a>-->
 												</section>
 											</div>
-										</div>
-										<div class="row">
 											<div class="4u">
-												<section class="is is-triple-one">
+												<section class="is is-triple-two">
 													<header>
 														<h2>Redtooth</h2>
 													</header>
@@ -102,7 +112,7 @@
 												</section>
 											</div>
 											<div class="4u">
-												<section class="is is-triple-two">
+												<section class="is is-triple-three">
 													<header>
 														<h2>Tor</h2>
 													</header>
@@ -111,8 +121,10 @@
 													<!--<a href="decentralized" class="button button-style1">More</a>-->
 												</section>
 											</div>
+										</div>
+										<div class="row">
 											<div class="4u">
-												<section class="is is-triple-three">
+												<section class="is is-triple-one">
 													<header>
 														<h2>WiFi Aware</h2>
 													</header>
@@ -121,10 +133,8 @@
 													<!--<a href="delegative" class="button button-style1">More</a>-->
 												</section>
 											</div>
-										</div>
-										<div class="row">
 											<div class="4u">
-												<section class="is is-triple-one">
+												<section class="is is-triple-two">
 													<header>
 														<h2>WiFi Direct</h2>
 													</header>
@@ -134,7 +144,7 @@
 												</section>
 											</div>
 											<div class="4u">
-												<section class="is is-triple-two">
+												<section class="is is-triple-three">
 													<header>
 														<h2>WiFi Internet</h2>
 													</header>
@@ -143,11 +153,33 @@
 													<!--<a href="decentralized" class="button button-style1">More</a>-->
 												</section>
 											</div>
+										</div>
+										<div class="row">
 											<div class="4u">
-												<section class="is is-triple-three">
+												<section class="is is-triple-one">
 													<header>
 														<h2>WiFi HaLow</h2>
 													</header>
+													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Delegative_democracy" class="image image-full"><img src="../images/delegative.jpeg" alt="" /></a>-->
+													<p>&nbsp;</p>
+													<!--<a href="delegative" class="button button-style1">More</a>-->
+												</section>
+											</div>
+											<div class="4u">
+												<section class="is is-triple-two">
+													<!--<header>-->
+														<!--<h2>WiFi HaLow</h2>-->
+													<!--</header>-->
+													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Delegative_democracy" class="image image-full"><img src="../images/delegative.jpeg" alt="" /></a>-->
+													<p>&nbsp;</p>
+													<!--<a href="delegative" class="button button-style1">More</a>-->
+												</section>
+											</div>
+											<div class="4u">
+												<section class="is is-triple-three">
+													<!--<header>-->
+														<!--<h2>WiFi HaLow</h2>-->
+													<!--</header>-->
 													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Delegative_democracy" class="image image-full"><img src="../images/delegative.jpeg" alt="" /></a>-->
 													<p>&nbsp;</p>
 													<!--<a href="delegative" class="button button-style1">More</a>-->
@@ -225,14 +257,15 @@
 														1M5 does not support aggression in any form by any entity.
 														One major form of aggression spread on the internet is child abuse. The Aggression module
 														inspects all images and videos for evidence of child abuse (and only child abuse).
-														If it discovers such imagery, it removes the imagery from the message so that it
-														does not reach its destination, re-encrypts the imagery, the sender's IP address
-														and additional information using the 1st relay's key, then sends that
-														message to the 1st relay whereby it will continue on the original
-														message to its destination, minus the image while the new content
-														containing the image, IP address of the sender, and additional information
-														gets decrypted then sent directly to the
+														If it discovers such imagery, it copies the imagery, re-encrypts it with the sender's IP address
+														and additional information using the 1st relay's key, then sends the
+														message to the 1st relay whereby the original message will continue on to its destination
+														while the copied imagery, IP address of the sender, and additional information
+														gets sent directly to the
 														<a target="_blank" href="https://report.cybertip.org/">National Center for Missing & Exploited Children</a>.
+														The reason we allow the imagery to continue on is to not raise suspicion among
+														the exchangers of the illicit imagery in the hopes of catching them. Imagery is evidence of wrong-doing.
+														The act is what needs to be stopped and the imagery is the evidence to help find, rescue, and prosecute the attackers.
 													</p>
 													<!--<a href="voluntary" class="button button-style1">More</a>-->
 												</section>
@@ -317,16 +350,6 @@
 												</section>
 											</div>
 											<div class="4u">
-												<section class="is is-triple-two">
-													<header>
-														<h2>Government Cleaner</h2>
-													</header>
-													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Decentralization" class="image image-full"><img src="../images/decentralization.gif" alt="" /></a>-->
-													<p>&nbsp;</p>
-													<!--<a href="decentralized" class="button button-style1">More</a>-->
-												</section>
-											</div>
-											<div class="4u">
 												<section class="is is-triple-three">
 													<header>
 														<h2>Twitter Cleaner</h2>
@@ -334,6 +357,16 @@
 													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Delegative_democracy" class="image image-full"><img src="../images/delegative.jpeg" alt="" /></a>-->
 													<p>&nbsp;</p>
 													<!--<a href="delegative" class="button button-style1">More</a>-->
+												</section>
+											</div>
+											<div class="4u">
+												<section class="is is-triple-two">
+													<header>
+														<h2>Surveillance Cleaner</h2>
+													</header>
+													<!--<a target="_blank" href="https://en.wikipedia.org/wiki/Decentralization" class="image image-full"><img src="../images/decentralization.gif" alt="" /></a>-->
+													<p>&nbsp;</p>
+													<!--<a href="decentralized" class="button button-style1">More</a>-->
 												</section>
 											</div>
 										</div>
