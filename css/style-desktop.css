@@ -324,8 +324,10 @@
 
 		#logo h1
 		{
+			font-family: nexa_bold;
 			font-size: 2em;
 			letter-spacing: 0.25em;
+			color: #ffdd47;
 		}
 		
 		#logo .byline
@@ -334,6 +336,7 @@
 			display: block;
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
+			color: #ffdd47;
 		}
 
 /*********************************************************************************/
@@ -342,6 +345,8 @@
 
 	#nav
 	{
+		font-family: nexa_light;
+		color: #ffdd47;
 		position: absolute;
 		display: block;
 		top: 2.5em;
@@ -359,7 +364,7 @@
 		{
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(255,221,71,0.25);
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -374,8 +379,8 @@
 			#nav > ul > li > span
 			{
 				display: block;
-				color: #eee;
-				color: rgba(255,255,255,0.75);
+				color: #ffdd47;
+				color: rgba(255,221,71,0.75);
 				text-transform: uppercase;
 				text-decoration: none;
 				font-size: 0.7em;
@@ -393,7 +398,7 @@
 				#nav > ul > li > a > h3
 				{
 					padding: 0 .5em 0 .5em;
-					color: #eee;
+					color: #ffdd47;
 				}
 			
 			#nav > ul > li:hover > a,
@@ -410,7 +415,7 @@
 		background-color: rgba(44,50,63,0.925);
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
-		box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
+		box-shadow: inset 0px 0px 1px 1px rgba(255,221,71,0.25);
 		min-width: 12em;
 		text-align: left;
 	}
@@ -426,13 +431,13 @@
 		.dropotron span
 		{
 			display: block;
-			color: #eee;
-			color: rgba(255,255,255,0.75);
+			color: #ffdd47;
+			color: rgba(255,221,71,0.75);
 			text-transform: uppercase;
 			text-decoration: none;
 			font-size: 0.7em;
 			letter-spacing: 0.25em;
-			border-top: solid 1px rgba(255,255,255,0.15);
+			border-top: solid 1px rgba(255,2217,71,0.15);
 			line-height: 3em;
 			-moz-transition: all .25s ease-in-out;
 			-webkit-transition: all .25s ease-in-out;
