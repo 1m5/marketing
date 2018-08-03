@@ -327,7 +327,7 @@
 			font-family: nexa_bold;
 			font-size: 2em;
 			letter-spacing: 0.25em;
-			color: #ffdd47;
+			color: #92e4ff;
 		}
 		
 		#logo .byline
@@ -336,7 +336,7 @@
 			display: block;
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
-			color: #ffdd47;
+			color: #3ebaff;
 		}
 
 /*********************************************************************************/
@@ -345,8 +345,8 @@
 
 	#nav
 	{
-		font-family: nexa_light;
-		color: #ffdd47;
+		font-family: nexa_bold;
+		color: #92e4ff;
 		position: absolute;
 		display: block;
 		top: 2.5em;
@@ -364,7 +364,7 @@
 		{
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255,221,71,0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(75, 193, 255, 0.25);
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -379,8 +379,8 @@
 			#nav > ul > li > span
 			{
 				display: block;
-				color: #ffdd47;
-				color: rgba(255,221,71,0.75);
+				color: #92e4ff;
+				color: rgba(146, 228, 255, 0.75);
 				text-transform: uppercase;
 				text-decoration: none;
 				font-size: 0.7em;
@@ -398,7 +398,7 @@
 				#nav > ul > li > a > h3
 				{
 					padding: 0 .5em 0 .5em;
-					color: #ffdd47;
+					color: #92e4ff;
 				}
 			
 			#nav > ul > li:hover > a,
@@ -406,7 +406,7 @@
 			#nav > ul > li.active > a,
 			#nav > ul > li.active > span
 			{
-				color: #fff;
+				color: #cefdff;
 			}
 
 	.dropotron
@@ -431,8 +431,8 @@
 		.dropotron span
 		{
 			display: block;
-			color: #ffdd47;
-			color: rgba(255,221,71,0.75);
+			color: #92e4ff;
+			color: rgba(146, 228, 255, 0.75);
 			text-transform: uppercase;
 			text-decoration: none;
 			font-size: 0.7em;
@@ -455,7 +455,7 @@
 		.dropotron li:hover > a,
 		.dropotron li:hover > span
 		{
-			color: #fff;
+			color: #cefdff;
 		}
 
 /*********************************************************************************/
