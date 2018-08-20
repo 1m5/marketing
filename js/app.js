@@ -22,8 +22,6 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             when('/repbac',{templateUrl: 'templates/repbac.html',controller: 'mainController'}).
             when('/consensus',{templateUrl: 'templates/consensus.html',controller: 'mainController'}).
             when('/dex',{templateUrl: 'templates/dex.html',controller: 'mainController'}).
-            when('/os',{templateUrl: 'templates/os.html',controller: 'mainController'}).
-            when('/hardware',{templateUrl: 'templates/hardware.html',controller: 'mainController'}).
             otherwise({redirectTo: '/'})
     }]);
 
