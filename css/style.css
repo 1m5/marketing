@@ -26,13 +26,13 @@
 	{
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
-		color: #919499;
+		color: #5f6064;
 	}
 
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 700;
-		color: #484d55;
+		color: #3e4249;
 	}
 	
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -60,7 +60,7 @@
 	strong, b
 	{
 		font-weight: 700;
-		color: #484d55;
+		color: #2a2d31;
 	}
 	
 	blockquote
@@ -264,7 +264,7 @@
 		
 		header.style1 .byline
 		{
-			color: #b1b4b9;
+			color: #47484a;
 		}
 
 	.image
