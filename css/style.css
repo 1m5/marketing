@@ -925,7 +925,8 @@
 	#header-wrapper
 	{
 		/*background: url('../images/banner.jpg') center center;*/
-		background: url('../images/blackpainting.jpg') center center;
+		/*background: url('../images/blackpainting.jpg') center center;*/
+		background: url('../images/1m5-bkg.jpg') center center;
 		background-size: cover;
 	}
 	
