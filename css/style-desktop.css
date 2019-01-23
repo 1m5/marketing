@@ -282,6 +282,12 @@
 			height: 573px;
 		}
 
+		.no-sidebar #header-wrapper
+		{
+			background: url('../images/blackpainting.jpg') center center;
+			background-size: cover;
+		}
+
 	#intro-wrapper
 	{
 		padding-bottom: 8em;
