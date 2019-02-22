@@ -85,7 +85,16 @@
 										</header>
 										<p>
 											Reputation awards are given by people and organizations to build up
-											your reputation to solidify your <a href="/did">DID</a>.
+											your reputation to solidify your <a href="/did">DID</a>. It uses
+											<a href="https://en.wikipedia.org/wiki/Web_of_trust" target="_blank">Web of Trust</a>
+											by people signing your DID's attributes vouching for them. For example,
+											you could provide a number of skills you're proficient in and people who
+											believe you are proficient in them could sign them, something like LinkedIn supports
+											except this is using cryptography so that it can be verified by anyone and thus
+											not having to trust LinkedIn. Any and all attributes can be signed and revoked.
+											Another example could be an attribute that says you're over 21 years of age.
+											That could be checked to see the number of adults who signed it and thus how
+											likely you are to believe the person is over 21.
 										</p>
 									</article>
 									<!--<div>-->
